@@ -1,0 +1,26 @@
+select *from teacherss 
+	 select *from employeeee
+	 select ename, faculty, teacherss.salary from employeeee inner join teacherss on eid=tid
+ 
+ 
+	 select *from booklist left join book  on isbn=bid
+ 
+ 
+	 select *from booklist right join book  on isbn=bid
+ 
+     select *from studentss full join issues  on sid=iid
+ 
+	 	 select *from employeeee
+	  insert into employeeee values (4, 'sunil', '2010-02-28',30000)
+	 select ename, salary from employeeee where ename like 's%' and ename like '%ni%'
+ 
+ 
+	  insert into employeeee values(5,'ar','2001-02-03',50000)
+	  update employeeee set ename ='ar' where eid =5
+	 	 select *from employeeee
+	 	 select *from teacherss
+	select ename from employeeee inner join teacherss on ename=tname
+ 
+		 select *from employeeee
+	 	 select *from teacherss
+	select  distinct ename from employeeee full join teacherss on ename!=tname
