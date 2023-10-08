@@ -1,1 +1,1 @@
-# sql
+simple sql program
